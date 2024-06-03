@@ -50,13 +50,16 @@
 <body>
 
 <form id="login" action="#" method="post">
-	<img src="../src/icon.png"><h1>Log-in</h1>
+	<!-- <img src="../src/icon.png"> -->
+	<h2>DCS - 2019</h2>
+	<h1>Log-in</h1>
 	<div class="items">
-    <input type="text" class="input" id="email" placeholder="Enter Your User Name" name="name">
+    <input type="text" class="input" id="email" placeholder="Username" name="name">
 
-   <input type="password" class="" id="password" placeholder="Enter your Password" name="pass"><br><br>
+   <input type="password" class="" id="password" placeholder="Password" name="pass"><br><br>
   <button type="submit" class="btn btn-primary" name="submit2">Log In</button>
-  <p>Don't You Have An Account ?<a href="register.php"> Register</a></p>
+  <br><br>
+  <p>Don't you have an account?<a href="register.php"> Register</a></p>
   </div>
 </form>
 
