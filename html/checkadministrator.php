@@ -1,5 +1,5 @@
 <?php 
-if($_COOKIE['u_name']=="admin"){
+if($_COOKIE['u_name']=="Admin"){
 
 	header('Location:admin.php');
 }
