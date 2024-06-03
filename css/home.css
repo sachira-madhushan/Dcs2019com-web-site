@@ -6,19 +6,19 @@ body{
 .top{
 
    top: 0;
-   z-index: 100;
-   background-color:rgba(100, 100, 100, 0.5);
+   z-index: 0;
+   background-color:rgba(0, 0, 0, 0.49);
    overflow:auto;
    color: aqua;
-   box-shadow: 2px 3px 20px black;
+   box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.286);
    border-radius: 20px;
-   opacity:0.5;
+   
 }
 
 .logo{
 	float: left;
 	margin: 20px;
-
+	z-index:5 !important;
 }
 .hi{
 	float: right;
@@ -30,7 +30,9 @@ body{
 	
 }
 .logo h1{
-	box-shadow:0px 0px 5px aqua,0 0 10px aqua,0 0 20px aqua;
+	z-index:1;
+	color: white;
+	text-shadow:0px 0px 5px aqua,0 0 10px aqua,0 0 20px aqua;
 	padding: 2px;
 }
 .logo h3{
@@ -41,12 +43,13 @@ body{
 }
 .midleft{
 	width: 20%;
+	margin:5px;
 	background-color: black;
 	float: left;
 }
 .midright{
-	width: 80%;
-
+	width: 78%;
+	margin:5px;
 	float: right;
 }
 .midleft button{

@@ -5,6 +5,7 @@
 	session_start();
 	if(isset($_COOKIE['u_name'])){
 		$yousername=$_COOKIE['u_name'];
+		
 	}
 	else{
 		
@@ -32,7 +33,7 @@
 <div class="main ">
 	<div class="top">
 		<div class="logo">
-			<h1>DCS - 2019COM - Site</h1>
+			<h1>DCS - 2019</h1>
 			<h3>Developed By J.P.Sachira Madhushan</h3>
 		</div>
 		<div class="hi">
@@ -46,10 +47,11 @@
 					<h4>Hi ,I'm Sachira Madhushan</h4>
 					<h6>EUSL/TC/IS/2019/COM/17</h6>
 					<img src="../src/me.jpg">
-					<p>I'm a Computer Science student, Eastern University of Sri Lanka. Also a programmer,Youtuber and a blogger. Interested in application development. I have studied Computer Science, Unity Game Development, Android App Development and Web app development.</p>
-					<p>Email :Sacheeramadushan455@gmail.com</p>
+					<p>I'm a Computer Science student, Eastern University of Sri Lanka.Also following a external degree at UCSC(BIT). Also a programmer,Youtuber,Graphic designer and Video editor.Interested in application development.I'm following a game development mini degree at ceylon school of game design.I have studied Computer Science, Unity Game Development, Android App Development and Web app development.</p>
+					<p>Email :sachiramadhushan.dev@gmail.com</p>
 					<p>Phone :078-3398454</p>
 					<p><a href="https://github.com/sachira-madhushan">My Github Profile</a></p>
+					<p><a href="https://www.linkedin.com/in/dev-sachira-madhushan/">My Linkedin Profile</a></p>
 				</div>	
 				<a href="checkadministrator.php"><button>Adminstrator</button></a>
 				<a href="logout.php"><button>Log-Out</button></a>
@@ -57,7 +59,7 @@
 				<div class="send">
 					<form action="sendmeamsg.php" method="post">
 					<p>Your Name</p>
-					<input type="text" name="name" placeholder="Your Name Here">
+					<input type="text" name="name" placeholder="Name">
 					<p>Your Message</p>
 					<textarea name="message" placeholder="Your Message"></textarea>
 					<button type="submit" name="submit">Send</button>

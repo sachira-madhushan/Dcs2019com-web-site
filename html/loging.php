@@ -13,18 +13,18 @@
 				$row=mysqli_fetch_array($out2);
 
 				if(md5($pass)==$row[0]){
-					echo '<Script>alert("Login Success !")</Script>';
+					
 
 					setcookie("u_name",$username, time()+(86400 * 30),"/");
 					$_SESSION['u_name'] = $_COOKIE['u_name'];
-					if($_COOKIE['u_name']=="admin"){
-
+					$username=$_COOKIE['u_name'];
+					echo '<Script>alert("Login Success !")</Script>';
+					if($username=="Admin"){
 						header('Location:admin.php');
+					}else{
+						header('Location:home.php');
 					}
-					else{
-						header('Location:../index.php');
-
-					}
+					
 				}
 				else{
 					echo '<Script>alert("Username Or Password Incorrect !")</Script>';

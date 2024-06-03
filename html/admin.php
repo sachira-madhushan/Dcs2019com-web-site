@@ -27,7 +27,7 @@
 <div class="main">
 	<div class="top">
 		<div class="logo">
-			<h1>DCS - 2019COM - Site</h1>
+			<h1>DCS - 2019</h1>
 			<h1>Administrator</h1>
 		</div>
 		<div class="hi">
